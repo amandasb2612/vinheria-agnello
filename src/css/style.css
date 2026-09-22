@@ -1,17 +1,48 @@
-/* página catalogo*/
-.titulo-bonito {
-    color: rgb(100, 13, 13);
-    text-align: center;
-    font-size: 100px;
-    font-family:'Times New Roman', Times, serif ;
+body {
+    background-color: rgba(250, 247, 240, 1);
 }
 
+header {
+    text-align: center;
+}
 
 nav {
     text-align: center;
-    font-size: 20px;   
+    font-size: 20px;
 }
 
+.titulo-bonito {
+    color: rgb(100, 13, 13);
+    text-align: center;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+#final {
+    text-align: center;
+    
+}
+
+
+/* Página de Início */
+
+#intro-index {
+    text-align: center;
+}
+
+#producao {
+    text-align: center;
+}
+
+
+/* Página Sobre Nós */
+
+#historia {
+    text-align: center;
+}
+
+
+/* Página de Catálogo */
 
 .outros-titulos {
     text-align: center;
@@ -27,7 +58,6 @@ nav {
     text-align: center;
 }
 
-
 /*professor não me lembro de você explicando essa parte, mas para não ficar feio eu coloquei :) */
 .tabela {
     margin: auto;
@@ -37,10 +67,6 @@ nav {
     text-align: center;
 }
 
-#final {
-    text-align: center;
-    
-}
 
 /* Página consultoria */ 
 #intro-consul {
@@ -67,8 +93,9 @@ nav {
     text-align: center;
 }
 
+
 /* Pagina de contatos */ 
- 
+
 #intro-contato {
     text-align: center;
 }
