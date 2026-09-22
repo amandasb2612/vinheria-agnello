@@ -31,14 +31,20 @@ O site é dividido em páginas e seções que organizam da Vinheria Agnello. Cad
     - **Página Contato (contatos.html)**
         A pagina contato foi desenvolvida para facilitar a comunicação com os clientes. A página possui um formulário de contato, no qual o usuário pode informar seu nome completo, e-mail e enviar uma mensagem para a equipe. 
         Além do formulário, são disponibilizados outras formas de contato com a empresa, permitindo que o cliente escolha a melhor forma de comunicação. 
+
 ---
+
 **Tecnologias utilizadas**
     - HTML
     - CSS
+
 ---
+
 **Integrantes**
     - Amanda Souza de Barros 
-    - Mariana Nascimento 
+    - Mariana do Nascimento 
+
 ---
+
 **Link para o site**
 https://amandasb2612.github.io/vinheria-agnello/
