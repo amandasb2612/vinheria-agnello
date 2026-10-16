@@ -36,3 +36,7 @@ nav a:any-link:hover {
     transform: scale(1.05);
 }
 
+.card-vinho:hover {
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
