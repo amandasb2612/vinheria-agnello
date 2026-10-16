@@ -22,6 +22,11 @@ nav {
     margin-right: 10px;
 }
 
+.titulo-bonito {
+    color: rgb(100, 13, 13);
+}
+
+
 .inicio:visited {
     color: rgb(100, 13, 13);
 }

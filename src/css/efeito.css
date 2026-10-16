@@ -1,0 +1,20 @@
+nav a:any-link:hover {
+    background-color: rgb(100, 13, 13);
+    color: white;
+    transform: translateY(-3px);
+    transition: background-color 0.5s, color 0.5s, transform 0.5s;
+}
+
+.tradicao img:hover {
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.titulo-tradicao::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(207, 154, 56);
+    margin-top: 10px;
+}
