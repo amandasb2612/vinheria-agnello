@@ -214,11 +214,47 @@ nav {
 
 /* Página Sobre Nós */
 
-#historia {
-    text-align: center;
+.tradicao3 {
+    margin-left: 30px;
+    display: flex;
+    gap: 285px;
+    text-align: left;
+}
+
+.titulo-geral {
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(100, 13, 13);
+}
+
+.tradicao3 img {
+    display: block;
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-position: center;
+    margin-right: 70px;
+}
+
+.tradicao4 {
+    display: flex;
+    gap: 200px;
+    text-align: left;
+    margin-left: 50px;
 }
 
 
+.img-equipe {
+    display: block;
+    margin-top: 55px;
+    width: 400px;
+    height: 300px;
+    object-position: center;
+    object-fit: cover;
+    margin-right: 100px;
+}
 /* Página de Catálogo */
 
 .outros-titulos {
