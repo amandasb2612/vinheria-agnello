@@ -463,4 +463,194 @@ nav {
     padding: 0;
 }
 
+/* Contatos */
+
+:root {
+    --fundo: #faf7f3;
+    --vinho: #5c0d22;
+    --vinho-escuro: #560d1f;
+    --texto: #3a2a2a;
+    --borda: #e4dbd5;
+    --circulo: #efe3df;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background: var(--fundo);
+    color: var(--texto);
+    line-height: 1.5;
+}
+
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+img { max-width: 100%; display: block; }
+
+.container {
+    width: min(1200px, 100% - 48px);
+    margin-inline: auto;
+}
+
+/* ---------- Cabeçalho ---------- */
+.cabecalho { border-bottom: 1px solid var(--borda); }
+
+.cabecalho-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding-block: 8px;
+}
+
+.menu { display: flex; gap: 40px; }
+
+.menu a {
+    display: block;
+    padding: 28px 8px 26px;
+    font-size: 17px;
+}
+
+.menu a.ativo {
+    color: var(--vinho);
+    font-weight: bold;
+    border-bottom: 3px solid var(--vinho);
+}
+
+.menu a:hover { color: var(--vinho); }
+
+/* ---------- Título ---------- */
+.intro {
+    text-align: center;
+    padding-block: 40px 36px;
+}
+
+.intro h1 {
+    color: var(--vinho);
+    font-size: 56px;
+    line-height: 1.1;
+    margin-bottom: 8px;
+}
+
+.intro p { font-size: 22px; }
+
+/* ---------- Duas colunas ---------- */
+.area-contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    padding-bottom: 28px;
+}
+
+.informacoes-contato h2,
+.formulario-contato h2 {
+    color: var(--vinho);
+    font-size: 42px;
+    line-height: 1.15;
+}
+
+.formulario-contato h2 { 
+    font-size: 36px; margin-bottom: 16px; 
+}
+
+.chamada { 
+    font-size: 21px; margin: 6px 0 22px; 
+}
+
+.lista-contato { 
+    display: grid; gap: 18px; margin-bottom: 26px; 
+}
+
+.lista-contato li {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.lista-contato strong { display: block; font-size: 18px; }
+.lista-contato span, .lista-contato a { font-size: 19px; }
+.lista-contato a:hover { color: var(--vinho); }
+
+.icone {
+    flex: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--circulo);
+    display: grid;
+    place-items: center;
+}
+
+.icone svg {
+    width: 28px;
+    height: 28px;
+    fill: none;
+    stroke: var(--vinho);
+    stroke-width: 1.800;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.foto-contato {
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ---------- Formulário ---------- */
+.formulario-contato {
+    background: #fffdfb;
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+    padding: 24px 36px 36px;
+}
+
+.formulario-contato label {
+    display: block;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 14px 0 6px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    width: 100%;
+    font: inherit;
+    padding: 10px 12px;
+    background: #fff;
+    border: 1px solid var(--borda);
+    border-radius: 6px;
+}
+
+.formulario-contato textarea { resize: vertical; min-height: 140px; }
+
+.formulario-contato input:focus,
+.formulario-contato textarea:focus {
+    outline: 2px solid var(--vinho);
+    outline-offset: 1px;
+}
+
+.formulario-contato button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 14px;
+    font: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: var(--vinho);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover { background: #740f2b; }
+.formulario-contato button:focus-visible { outline: 3px solid #c98a9b; outline-offset: 2px; }
+
+.endereco {
+    font-size: 15px;
+    padding-left: 28px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+}
 

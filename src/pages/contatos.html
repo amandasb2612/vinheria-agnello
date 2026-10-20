@@ -6,7 +6,7 @@
     <meta name="keywords" content="contato, vinheria agnello, fale conosco.">
     <meta name="description" content="Entre em contato com a nossa equipe da Vinheria Agnello para tirar dúvidas ou pedir ajuda na escolha do seu vinho.">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Contato | Vinheria Agnello</title>
+    <title>Contatos | Vinheria Agnello</title>
 </head>
 <body>
     <header>
@@ -14,64 +14,75 @@
             <img src="/src/assets/imgs/logotipo.png" alt="Logo da Vinheria Agnello com um cordeiro sobre videiras e cachos de uva" width="400" class="logo">
         
             <h1 class="titulo-bonito">Vinheria Agnello</h1>
-        <nav id="navegacao">
-            <p>
-                <a href="/index.html" class="inicio">Início </a> 
-                <a href="/src/pages/catalogo.html" class="catalogo">Catálogo </a> 
-                <a href="/src/pages/consultoria.html" class="consultoria">Consultoria </a> 
-                <a href="sobre.html" class="nossa-historia">Nossa história </a> 
-                <a href="/src/pages/contatos.html" class="contato">Contato </a>
-            </p>
-        </div>
-        </nav>
+                    <nav id="navegacao">
+                    <p>
+                        <a href="/index.html" class="inicio">Início </a> 
+                        <a href="/src/pages/catalogo.html" class="catalogo">Catálogo </a> 
+                        <a href="/src/pages/consultoria.html" class="consultoria">Consultoria </a> 
+                        <a href="sobre.html" class="nossa-historia">Nossa história </a> 
+                        <a href="/src/pages/contatos.html" class="contato">Contato </a>
+                    </p>
+                </nav>
+            </div>
         </header>
 
-        <main class>
+        <hr class="linha">
+        <h1 class="subtitulo">Fale com a gente</h1>
+        <p class="descricao-contato"> Estamos aqui para te ajudar a escolher bons momentos</p>
+        
+        <div class="area-contato">
+            <section class="informacoes-contato">
+                <h4> Entre em contato</h4>
+                <p>Tire suas dúvidas ou peça indicação de vinho</p>
+
+                <h4>WhatsApp</h4>
+                <p>(11)99857-7480</p>
+
+                <h4>E-mail</h4>
+                <p>contato@vinheriaagnello.com.br</p>
+
+                <h4>Horários de atendimento</h4>
+                <p>Segunda a sexta, das 9h às 18h.</p>
+            <div class="enquadramento">
+                <img src="../assets/imgs/prateleira01..jpg" alt="Prateleiras de vinho">
+            </div>
+                
+            </section>
+
+            <form class="formulario-contato">
+                <h3>Envie sua mensagem</h3>
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem</label>
+                <input type="text" id="mensagem" name="mensagem" required>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+
+        </div>
+        
+        <main>
             <hr class="linha">
+            <div class="tradicao4">
             <section id="intro-contato">
                 <h2 class="titulo-geral">Entre em contato</h2>
                 <p>
                 Tem alguma dúvida ou precisa de alguma ajuda para escolher um vinho?
                 Entre em contato com a equipe da Vinheria Agnello. Estamos à disposição para te ajudar a encontrar o rótulo ideal para cada ocasião.
                 </p>
-            
-            <div>
-                <img src="../assets/imgs/prateleira01..jpg"
-                alt="Atendente da Vinheria auxiliando um cliente">
+            </section>
             </div>
-            
-        </section>
 
-        <section id="formulario-contato">
-            <h2 class="outros-titulos">Envie sua mensagem</h2>
-            <form action="">
-                <fieldset>
-                    <legend>Formulário de contato</legend>
-                    
-                    <label for="nome-completo" >Nome completo:</label>
-                    <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome...">
-                    <br>
-                    
-                    <label for="email" >Email:</label>
-                    <input type="email" name="email" id="email" placeholder="Digite seu email...">
-                    <br>
-                    
-                    <label for="mensagem">Mensagem:</label> <br>
-                    <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui..."></textarea> <br>
-                    
-                    <button type="submit">Enviar mensagem</button>
-                </fieldset>
-            </form>
-        </section>
+
+            
+            
     </main>
-    <footer id="final">
-        <h2 class="titulofinal">Outras formas de contato</h2>
-        <p>
-            WhatsApp: (11)99857-7480 <br>
-            Email: contato@vinheriaagnello.com.br <br>
-            Endereço: Rua dos Vinhedos, 125 - Vila Madalena, São Paulo - SP <br>
-            Horário: Segunda a sábado, das 9h às 18h.
-            </p>
-    </footer>
-</body>
-</html>
+
