@@ -34,9 +34,36 @@ Página Contato (contatos.html):
 
 ---
 
+**Efeitos visuais**:
+Para deixar a navegação mais dinâmica, o site utiliza efeitos em CSS, organizados no arquivo `efeito.css` (importado no início do `style.css`) e em regras do próprio `style.css`.
+
+Pseudo-classes:
+    - `:hover`: ao passar o mouse, os links do menu mudam de cor e sobem levemente, as imagens das seções aumentam e os cards de vinho do catálogo sobem.
+    - `:any-link`: aplica o efeito do menu apenas nos links de navegação (`nav a:any-link:hover`).
+    - `:focus-visible`: destaca o botão de enviar do formulário de contato quando é acessado pelo teclado.
+    - `:visited`: mantém a cor dos links do menu depois de visitados.
+
+Pseudo-elementos:
+    - `::after`: cria uma linha dourada decorativa (60px de largura e 3px de altura) abaixo dos títulos das seções.
+    - `::selection`: muda a cor do texto selecionado pelo usuário para fundo vinho e letras brancas.
+
+Transições (`transition`):
+    - Links do menu: a cor de fundo, a cor do texto e o movimento mudam suavemente em 0,5 segundo.
+    - Imagens das seções e cards de vinho: os efeitos de aumentar e subir acontecem de forma suave, em 0,5 a 1 segundo.
+    - Botões da página de consultoria: a cor de fundo muda suavemente em 0,3 segundo.
+
+Transformações (`transform`):
+    - `translateY()`: os links do menu sobem 3px e os cards de vinho sobem 5px ao passar o mouse.
+    - `scale(1.05)`: as imagens das páginas aumentam 5% ao passar o mouse.
+
+Animações (`@keyframes`):
+    - `aparecer`: o conteúdo principal de cada página surge suavemente, subindo 20px enquanto ganha opacidade.
+
+---
+
 **Tecnologias utilizadas**
     - HTML
-    - CSS
+    - CSS (pseudo-classes, pseudo-elementos, transições, transformações e animações com @keyframes)
 
 ---
 
