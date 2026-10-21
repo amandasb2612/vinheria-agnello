@@ -46,14 +46,8 @@ nav a:any-link:hover {
     transform: translateY(-5px);
 }
 
-/* Enquadramento de imagens */
-/* 
-.enquadramento {
-    overflow: hidden;
-    border-radius: 10px;
-} */
-
 .enquadramento img:hover {
+    margin-left: 30px;
     transition: 1s;
     transform: scale(1.05);
 }
