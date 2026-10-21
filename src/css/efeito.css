@@ -1,23 +1,38 @@
+nav a {
+    transition: background-color 0.5s, color 0.5s, transform 0.5s;
+}
+
+.tradicao img,
+.tradicao3 img,
+.tradicao4 img,
+.tradicao5 img,
+.enquadramento img {
+    transition: transform 1s;
+}
+
+.card-vinho {
+    transition: transform 0.5s;
+}
+
 nav a:any-link:hover {
     background-color: rgb(100, 13, 13);
     color: white;
     transform: translateY(-3px);
-    transition: background-color 0.5s, color 0.5s, transform 0.5s;
 }
 
-.tradicao img:hover {
-    transition: 1s;
+.tradicao img:hover,
+.tradicao3 img:hover,
+.tradicao4 img:hover,
+.tradicao5 img:hover,
+.enquadramento img:hover {
     transform: scale(1.05);
 }
 
-.titulo-tradicao::after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background-color: rgb(207, 154, 56);
-    margin-top: 10px;
+.card-vinho:hover {
+    transform: translateY(-5px);
 }
+
+.titulo-tradicao::after,
 .titulo-geral::after {
     content: "";
     display: block;
@@ -27,28 +42,22 @@ nav a:any-link:hover {
     margin-top: 10px;
 }
 
-.tradicao3 img:hover {
-    transition: 1s;
-    transform: scale(1.05);
-}
-.tradicao4 img:hover {
-    transition: 1s;
-    transform: scale(1.05);
-}
-
-.tradicao5 img:hover {
-    transition: 1s;
-    transform: scale(1.05);
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-.card-vinho:hover {
-    transition: 0.5s;
-    transform: translateY(-5px);
+main {
+    animation: aparecer 1s ease;
 }
 
-.enquadramento img:hover {
-    margin-left: 30px;
-    transition: 1s;
-    transform: scale(1.05);
+::selection {
+    background-color: rgb(100, 13, 13);
+    color: white;
 }
-
